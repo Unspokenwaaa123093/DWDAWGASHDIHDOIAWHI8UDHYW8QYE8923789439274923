@@ -12,25 +12,42 @@
             <a href="index.html" class="text-red-600">Home</a>
             <a href="about.html" class="hover:text-red-600">Über Uns</a>
             <a href="services.html" class="hover:text-red-600">Services</a>
+            <a href="reviews.html" class="hover:text-red-600">Bewertungen</a>
             <a href="contact.html" class="hover:text-red-600">Kontakt</a>
         </div>
     </nav>
 
-    <header class="relative h-[70vh] flex items-center justify-center overflow-hidden">
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
         <img src="siteyegirincecikanfoto.webp" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-black/50"></div>
-        <div class="relative z-10 text-center">
-            <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">Ihr Stil.</h1>
-            <p class="text-2xl text-red-500 font-bold uppercase tracking-widest">Unsere Leidenschaft</p>
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Ihr Stil.<br><span class="text-red-500">Unsere Leidenschaft.</span></h1>
+            <p class="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">Professionelle Friseurdienstleistungen im Herzen von Nürnberg.</p>
+            <a href="tel:09116608295" class="bg-red-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-red-700 transition">Termin vereinbaren</a>
         </div>
     </header>
 
-    <main class="py-20 container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img src="b03l5bfn_image.png" class="rounded-xl shadow-lg h-80 w-full object-cover">
-            <img src="evkimxww_image.png" class="rounded-xl shadow-lg h-80 w-full object-cover">
-            <img src="cv3tcjpx_image.png" class="rounded-xl shadow-lg h-80 w-full object-cover">
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4 grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-red-500 text-3xl mb-4"></div>
+                <h3 class="text-xl font-bold mb-2">Kontakt</h3>
+                <p class="text-gray-600 mb-4 text-sm">Rufen Sie uns an für Ihren Termin</p>
+                <p class="font-bold">0911 6608295</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md text-center border-t-4 border-red-600">
+                <div class="text-red-500 text-3xl mb-4"></div>
+                <h3 class="text-xl font-bold mb-2">Standort</h3>
+                <p class="text-gray-600 mb-4 text-sm">Pirckheimerstraße 68, 90408 Nürnberg</p>
+                <a href="contact.html" class="text-red-600 font-bold uppercase text-xs">Zur Karte →</a>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-red-500 text-3xl mb-4"></div>
+                <h3 class="text-xl font-bold mb-2">Bewertungen</h3>
+                <p class="text-gray-600 mb-4 text-sm">4.6/5 Sterne auf Google</p>
+                <a href="reviews.html" class="text-red-600 font-bold uppercase text-xs">Mehr lesen →</a>
+            </div>
         </div>
-    </main>
+    </section>
 </body>
 </html>
