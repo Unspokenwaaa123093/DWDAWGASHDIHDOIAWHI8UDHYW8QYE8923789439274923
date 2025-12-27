@@ -1,28 +1,36 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Maakaz Hair in Nürnberg" />
-        <title>Startseite - Maakaz Hair in Nürnberg</title>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maakaz Hair - Nürnberg</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <nav class="sticky top-0 z-50 bg-white border-b py-4">
+        <div class="container mx-auto flex justify-center space-x-6 text-sm font-bold uppercase tracking-widest">
+            <a href="index.html" class="text-red-600">Home</a>
+            <a href="about.html" class="hover:text-red-600">Über Uns</a>
+            <a href="services.html" class="hover:text-red-600">Services</a>
+            <a href="contact.html" class="hover:text-red-600">Kontakt</a>
+        </div>
+    </nav>
 
-        <link rel="stylesheet" href="index.css">
+    <header class="relative h-[70vh] flex items-center justify-center overflow-hidden">
+        <img src="siteyegirincecikanfoto.webp" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">Ihr Stil.</h1>
+            <p class="text-2xl text-red-500 font-bold uppercase tracking-widest">Unsere Leidenschaft</p>
+        </div>
+    </header>
 
-        <script>
-            // Tailwind Ayarları (Orijinal yapıyı bozmamak için duruyor)
-            window.tailwind = window.tailwind || {};
-            tailwind.config = {
-                corePlugins: { preflight: false },
-            };
-        </script>
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
-        
-        <div id="root"></div>
-
-        <script src="index.js"></script>
-    </body>
+    <main class="py-20 container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <img src="b03l5bfn_image.png" class="rounded-xl shadow-lg h-80 w-full object-cover">
+            <img src="evkimxww_image.png" class="rounded-xl shadow-lg h-80 w-full object-cover">
+            <img src="cv3tcjpx_image.png" class="rounded-xl shadow-lg h-80 w-full object-cover">
+        </div>
+    </main>
+</body>
 </html>
