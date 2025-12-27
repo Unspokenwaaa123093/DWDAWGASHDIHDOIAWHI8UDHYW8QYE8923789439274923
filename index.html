@@ -4,17 +4,19 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Maakaz Hair - Nürnberg" />
+        <meta name="description" content="Maakaz Hair in Nürnberg" />
         <title>Startseite - Maakaz Hair in Nürnberg</title>
         
         <link rel="stylesheet" href="index.css">
         
-        <script src="https://cdn.tailwindcss.com"></script>
         <script>
+            // Tailwind sadece iframe dışındayken de çalışsın diye orijinal mantığı korudum
+            window.tailwind = window.tailwind || {};
             tailwind.config = {
                 corePlugins: { preflight: false },
             };
         </script>
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -24,15 +26,15 @@
                 <h1 class="text-4xl font-light uppercase tracking-widest">Maakaz Hair</h1>
                 <p class="text-gray-500 mt-2">Nürnberg</p>
                 <div class="mt-8">
-                    <img src="siteyegirincecikanfoto.webp" alt="Maakaz Hair" class="mx-auto max-w-full h-auto rounded-lg shadow-lg">
+                    <img src="siteyegirincecikanfoto.webp" alt="Maakaz Hair" class="mx-auto max-w-full h-auto rounded-lg">
                 </div>
             </header>
 
             <main class="container mx-auto py-12 px-4">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <img src="b03l5bfn_image.png" class="w-full h-auto rounded shadow">
-                    <img src="evkimxww_image.png" class="w-full h-auto rounded shadow">
-                    <img src="cv3tcjpx_image.png" class="w-full h-auto rounded shadow">
+                    <img src="b03l5bfn_image.png" class="w-full h-auto rounded">
+                    <img src="evkimxww_image.png" class="w-full h-auto rounded">
+                    <img src="cv3tcjpx_image.png" class="w-full h-auto rounded">
                 </div>
             </main>
 
