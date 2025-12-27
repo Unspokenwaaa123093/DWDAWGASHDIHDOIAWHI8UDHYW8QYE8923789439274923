@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Maakaz Hair - Nürnberg" />
+        <title>Startseite - Maakaz Hair in Nürnberg</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                corePlugins: { preflight: false },
+            };
+        </script>
+        <style>
+            .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; padding: 1.5rem; }
+            .gallery-item img { width: 100%; height: auto; border-radius: 0.5rem; object-fit: cover; }
+            .main-banner { width: 100%; max-width: 1000px; margin: 0 auto; border-radius: 0.75rem; }
+        </style>
+    </head>
+    <body class="bg-white text-black">
+        <div id="root">
+            <header class="py-8 border-b">
+                <div class="container mx-auto px-4 text-center">
+                    <h1 class="text-4xl font-light tracking-widest uppercase">Maakaz Hair</h1>
+                    <p class="text-gray-500 mt-2">Nürnberg</p>
+                    <div class="mt-8">
+                        <img src="siteyegirincecikanfoto.webp" alt="Maakaz Hair Salon" class="main-banner shadow-lg">
+                    </div>
+                </div>
+            </header>
+
+            <main class="container mx-auto py-12">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="b03l5bfn_image.png" alt="Hair Design 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="evkimxww_image.png" alt="Hair Design 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="cv3tcjpx_image.png" alt="Hair Design 3">
+                    </div>
+                </div>
+            </main>
+
+            <footer class="bg-neutral-900 text-white py-12 mt-12">
+                <div class="container mx-auto px-4 text-center">
+                    <p class="text-sm opacity-70">&copy; <?php echo date("Y"); ?> Maakaz Hair Nürnberg. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
